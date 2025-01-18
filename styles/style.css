@@ -88,11 +88,11 @@ ol {
 }
 
 .content__details {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .result {
@@ -216,7 +216,6 @@ ol {
   display: flex;
   gap:15px;
   margin-bottom: 5px;
-
 }
 
 .search-form__label {
@@ -305,11 +304,9 @@ ol {
 .search-form__submit-button {
   width: 194px;
   align-self: end;
-
 }
 
 .more-button { 
   width: 100%;
   margin-top: 30px;
-
 }
