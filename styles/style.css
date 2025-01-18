@@ -142,7 +142,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
@@ -170,7 +170,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -197,6 +197,10 @@ ol {
   width: 100%;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .visually-hidden {
@@ -227,9 +231,8 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
-  text-decoration-skip-ink: none;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   border-right: none;
   border-left: none;
   background-color: transparent;
@@ -273,9 +276,9 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
-  background-color: transparent;
   color: #fff;
+  border: 1px solid currentColor;
+  background-color: transparent;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
